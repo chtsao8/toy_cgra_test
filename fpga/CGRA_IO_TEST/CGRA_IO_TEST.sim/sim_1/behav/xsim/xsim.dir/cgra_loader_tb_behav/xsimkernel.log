@@ -1,0 +1,7 @@
+Running: xsim.dir/cgra_loader_tb_behav/xsimk.exe -simmode gui -wdb cgra_loader_tb_behav.wdb -simrunnum 0 -socket 50996
+Design successfully loaded
+Design Loading Memory Usage: 8220 KB (Peak: 8220 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 8872 KB (Peak: 8872 KB)
+Simulation CPU Usage: 46 ms

@@ -1,0 +1,10 @@
+01:57:27 **** Incremental Build of configuration Hardware for project cgra_test_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 60571 C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test_design_wrapper/export/cgra_test_design_wrapper/cgra_test_design_wrapper.xpfm standalone_ps7_cortexa9_0 C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test_system/Hardware/system.bif
+sdcard_gen --xpfm C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test_design_wrapper/export/cgra_test_design_wrapper/cgra_test_design_wrapper.xpfm --sys_config cgra_test_design_wrapper --bif C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test_system/Hardware/system.bif --bitstream C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test/_ide/bitstream/cgra_test_design_wrapper.bit --elf C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test/Debug/cgra_test.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test/_ide/bitstream/cgra_test_design_wrapper.bit
+Running D:/Xilinx/Vitis/2021.2/bin/bootgen  -image C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test_system/Hardware/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+01:57:35 Build Finished (took 7s.71ms)
+

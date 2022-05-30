@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Apr  6 21:38:23 2022
+# Process ID: 18920
+# Current directory: C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_xbar_0_synth_1
+# Command line: vivado.exe -log cgra_test_design_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cgra_test_design_xbar_0.tcl
+# Log file: C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_xbar_0_synth_1/cgra_test_design_xbar_0.vds
+# Journal file: C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_xbar_0_synth_1\vivado.jou
+# Running On: CHARLES-PC, OS: Windows, CPU Frequency: 3394 MHz, CPU Physical cores: 16, Host memory: 17110 MB
+#-----------------------------------------------------------
+source cgra_test_design_xbar_0.tcl -notrace

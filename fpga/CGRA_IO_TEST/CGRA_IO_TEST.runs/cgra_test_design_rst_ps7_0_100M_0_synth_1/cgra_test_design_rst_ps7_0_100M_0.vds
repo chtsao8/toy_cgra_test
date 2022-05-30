@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Apr  6 21:38:23 2022
+# Process ID: 6316
+# Current directory: C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_rst_ps7_0_100M_0_synth_1
+# Command line: vivado.exe -log cgra_test_design_rst_ps7_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cgra_test_design_rst_ps7_0_100M_0.tcl
+# Log file: C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_rst_ps7_0_100M_0_synth_1/cgra_test_design_rst_ps7_0_100M_0.vds
+# Journal file: C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_rst_ps7_0_100M_0_synth_1\vivado.jou
+# Running On: CHARLES-PC, OS: Windows, CPU Frequency: 3394 MHz, CPU Physical cores: 16, Host memory: 17110 MB
+#-----------------------------------------------------------
+source cgra_test_design_rst_ps7_0_100M_0.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1451.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 1451.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:36 . Memory (MB): peak = 1451.777 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:37 . Memory (MB): peak = 1451.777 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:37 . Memory (MB): peak = 1451.777 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1451.777 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1454.754 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1458.793 ; gain = 4.039
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_rst_ps7_0_100M_0_synth_1/dont_touch.xdc, line 9).
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:54 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:54 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:59 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:01:10 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:10 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Technology Mapping : Time (s): cpu = 00:00:45 ; elapsed = 00:01:10 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 00:01:22 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:01:22 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:01:22 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:01:22 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:01:22 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:01:22 . Memory (MB): peak = 1458.793 ; gain = 7.016
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     5|
+|2     |LUT2  |     9|
+|3     |LUT3  |     1|
+|4     |LUT4  |     6|
+|5     |LUT5  |     3|
+|6     |LUT6  |     1|
+|7     |SRL16 |     1|
+|8     |FDR   |     8|
+|9     |FDRE  |    28|
+|10    |FDSE  |     4|
++------+------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:01:22 . Memory (MB): peak = 1458.793 ; gain = 7.016
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1458.793 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1470.449 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:33 . Memory (MB): peak = 1470.449 ; gain = 18.672

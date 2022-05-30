@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.ip_user_files/bd/cgra_test_design/ip/cgra_test_design_axi_gpio_0_0/sim/cgra_test_design_axi_gpio_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cgra_test_design_axi_gpio_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.ip_user_files/bd/cgra_test_design/ip/cgra_test_design_axi_gpio_0_1/sim/cgra_test_design_axi_gpio_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cgra_test_design_axi_gpio_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.ip_user_files/bd/cgra_test_design/ip/cgra_test_design_rst_ps7_0_100M_0/sim/cgra_test_design_rst_ps7_0_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cgra_test_design_rst_ps7_0_100M_0'

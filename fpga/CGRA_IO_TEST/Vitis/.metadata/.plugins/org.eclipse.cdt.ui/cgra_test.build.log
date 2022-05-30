@@ -1,0 +1,25 @@
+01:57:26 **** Incremental Build of configuration Debug for project cgra_test ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test_design_wrapper/export/cgra_test_design_wrapper/sw/cgra_test_design_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cgra_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/Vitis/cgra_test_design_wrapper/export/cgra_test_design_wrapper/sw/cgra_test_design_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "cgra_test.elf"  ./src/helloworld.o ./src/platform.o ./src/ps7_init.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cgra_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cgra_test.elf  |tee "cgra_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26548	  11144	  39016	  76708	  12ba4	cgra_test.elf
+'Finished building: cgra_test.elf.size'
+' '
+
+01:57:27 Build Finished (took 1s.125ms)
+

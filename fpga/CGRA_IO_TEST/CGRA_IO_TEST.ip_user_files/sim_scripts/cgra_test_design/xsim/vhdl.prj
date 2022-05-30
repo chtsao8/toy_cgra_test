@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/cgra_test_design/ip/cgra_test_design_axi_gpio_0_0/sim/cgra_test_design_axi_gpio_0_0.vhd" \
+"../../../bd/cgra_test_design/ip/cgra_test_design_axi_gpio_0_1/sim/cgra_test_design_axi_gpio_0_1.vhd" \
+"../../../bd/cgra_test_design/ip/cgra_test_design_rst_ps7_0_100M_0/sim/cgra_test_design_rst_ps7_0_100M_0.vhd" \
+
+nosort

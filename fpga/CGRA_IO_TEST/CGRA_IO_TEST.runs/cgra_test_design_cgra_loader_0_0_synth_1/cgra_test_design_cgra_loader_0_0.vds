@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Apr  6 21:38:23 2022
+# Process ID: 15500
+# Current directory: C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_cgra_loader_0_0_synth_1
+# Command line: vivado.exe -log cgra_test_design_cgra_loader_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cgra_test_design_cgra_loader_0_0.tcl
+# Log file: C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_cgra_loader_0_0_synth_1/cgra_test_design_cgra_loader_0_0.vds
+# Journal file: C:/Users/chess/OneDrive/Documents/Stanford/EE272C/CGRA_IO_TEST/CGRA_IO_TEST.runs/cgra_test_design_cgra_loader_0_0_synth_1\vivado.jou
+# Running On: CHARLES-PC, OS: Windows, CPU Frequency: 3394 MHz, CPU Physical cores: 16, Host memory: 17110 MB
+#-----------------------------------------------------------
+source cgra_test_design_cgra_loader_0_0.tcl -notrace
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {WARNING}' to undo this change.
+CRITICAL WARNING: [Common 17-1355] You are suppressing all messages of type 'CRITICAL WARNING'. You may potentially disregard important DRC, CDC, and implementation messages that can negatively impact your design.  If this is not desired, please run 'reset_msg_config -suppress -severity {CRITICAL WARNING}' to undo this change.
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1435.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:33 . Memory (MB): peak = 1435.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:37 . Memory (MB): peak = 1435.316 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1435.316 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:38 . Memory (MB): peak = 1435.316 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1435.316 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1461.645 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1461.680 ; gain = 0.035
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:54 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:59 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:01:10 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:10 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:01:10 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished IO Insertion : Time (s): cpu = 00:00:58 ; elapsed = 00:01:23 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:58 ; elapsed = 00:01:23 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:01:23 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:01:23 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:01:23 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:01:23 . Memory (MB): peak = 1461.680 ; gain = 26.363
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     8|
+|2     |LUT1   |     2|
+|3     |LUT2   |     3|
+|4     |LUT3   |     6|
+|5     |LUT4   |     5|
+|6     |LUT6   |     9|
+|7     |FDRE   |    40|
++------+-------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:01:23 . Memory (MB): peak = 1461.680 ; gain = 26.363
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1464.105 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1475.309 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:07 ; elapsed = 00:01:34 . Memory (MB): peak = 1475.309 ; gain = 39.992
